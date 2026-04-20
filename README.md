@@ -123,7 +123,7 @@ Realize os testes de integração:
 - [Spring Boot](https://spring.io/projects/spring-boot) - Framework principal da aplicação
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa) - Camada de persistência e abstração para acesso dos dados
 - [TODO](./TODO.md) - [Spring Security](https://spring.io/projects/spring-security) - Autenticação e autorização com JWT
-- [TODO](./TODO.md) - [PostgreSQL](https://www.postgresql.org/) - Banco de dados relacional
+- [PostgreSQL](https://www.postgresql.org/) - Banco de dados relacional
 - [Maven](https://maven.apache.org/) - Gerenciamento de dependências e build do projeto
 
 ## 🧱 Arquitetura <a name = "architecture"></a>
@@ -142,7 +142,8 @@ A aplicação segue uma arquitetura em camadas baseada em princípios de separa�
   - Abstrai o acesso ao banco de dados
   - Utiliza Spring Data JPA para operações CRUD e queries
 
-- [TODO](./TODO.md) - **Camada Model**
+- **Camada Model**
+  - Contém a entidade principal da minha aplicação
 
 ## 🔁 Padrões utilizados <a name = "pattern"></a>
 
@@ -157,7 +158,7 @@ A aplicação segue uma arquitetura em camadas baseada em princípios de separa�
 - Endpoints organizados por recurso
 - Uso de métodos HTTP semânticos (GET, POST, PUT, DELETE)
 
-## - [TODO](./TODO.md) - 💾 Persistência integrada com PostgreSQL
+## - 💾 Persistência integrada com PostgreSQL
 
 - ORM com Spring Data JPA
 - Mapeamento objeto-relacional

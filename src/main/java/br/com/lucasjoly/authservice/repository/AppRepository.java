@@ -1,12 +1,11 @@
 package br.com.lucasjoly.authservice.repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public class AppRepository {
+import br.com.lucasjoly.authservice.model.AppEntity;
 
-    public String obterMensagem(){
-        return "AppRepository test message";
-    }
+@Repository
+public interface AppRepository extends JpaRepository<AppEntity, Long> {
 
 }
