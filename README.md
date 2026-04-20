@@ -7,9 +7,13 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/jzmlucas/auth-service-jwt-api)
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/jzmlucas/auth-service-jwt-api/issues)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/jzmlucas/auth-service-jwt-api?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)](#)
+
+[![Java](https://img.shields.io/badge/Java-17+-red?style=for-the-badge&logo=openjdk)](#)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen?style=for-the-badge&logo=springboot)](#)
+[![Security](https://img.shields.io/badge/Auth-JWT-blue?style=for-the-badge)](#)
+[![Database](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)](#)
 
 </div>
 
@@ -34,7 +38,7 @@ API RESTful de autenticação com JWT utilizando Spring Boot, Spring Security e 
 - [Autores](#authors)
 - [Conhecimentos adquiridos](#acknowledgement)
 
-## 🏁 Primeiros passos <a name = "getting_started"></a>
+## 🚀 Primeiros passos <a name = "getting_started"></a>
 
 ### Pré-requisitos
 
@@ -90,7 +94,7 @@ Se tudo estiver correto, o servidor Spring Boot iniciará sem erros no terminal.
 
 
 
-## 🔧 Realizando os testes <a name = "tests"></a>
+## 🧪 Realizando os testes <a name = "tests"></a>
 
 Execute os testes da aplicação
 
@@ -104,7 +108,7 @@ Realize os testes de unidade:
 Realize os testes de integração:
 - [TODO](./TODO.md)
 
-## 🎈 Utilização <a name="usage"></a>
+## 📦 Utilização <a name="usage"></a>
 
 ### Fluxo da aplicação
 - O cliente envia uma requisição HTTP
@@ -114,7 +118,7 @@ Realize os testes de integração:
 - A resposta é retornada ao cliente
 
 
-## ⛏️ Construção <a name = "built_using"></a>
+## 🏗️ Construção <a name = "built_using"></a>
 
 - [Spring Boot](https://spring.io/projects/spring-boot) - Framework principal da aplicação
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa) - Camada de persistência e abstração para acesso dos dados
@@ -160,12 +164,12 @@ A aplicação segue uma arquitetura em camadas baseada em princípios de separa�
 - Integração com PostgreSQL
 - Gerenciamento de transações automático
 
-## ✍️ Autor <a name = "authors"></a>
+## 👤 Autor <a name = "authors"></a>
 
 - [@jzmlucas](https://www.linkedin.com/in/jzmlucas/) - Estudo e Trabalho inicial
 
 
-## 🎉 Conhecimentos Adquiridos <a name = "acknowledgement"></a>
+## 📚 Conhecimentos Adquiridos <a name = "acknowledgement"></a>
 
 - Utilização do Framework Spring Boot
 - Gerenciamento de dependências utilizando Maven
